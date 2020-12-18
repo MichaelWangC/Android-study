@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/center_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimaryDark"></Button>
+    <Button
+        android:id="@+id/left_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toLeftOf="@id/center_btn"
+        android:background="@color/colorAccent"
+        android:layout_centerInParent="true"></Button>
+    <Button
+        android:id="@+id/right_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/center_btn"
+        android:background="@color/colorBalck"
+        android:layout_centerInParent="true"></Button>
+    <Button
+        android:id="@+id/top_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/center_btn"
+        android:background="@color/colorOrange"
+        android:layout_centerInParent="true"></Button>
+    <Button
+        android:id="@+id/bottom_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/center_btn"
+        android:background="@color/colorPink"
+        android:layout_centerInParent="true"></Button>
+
+</RelativeLayout>
